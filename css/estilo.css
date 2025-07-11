@@ -2,7 +2,7 @@ html, body, #home {
 	height: 100%;
 }
 
-body, #home {
+body, #home, #recursos {
 	background: url(../imagens/capa.png),
 				url(../imagens/ruido.png),
 				linear-gradient(50deg, #ff4169,#7c26f8);
