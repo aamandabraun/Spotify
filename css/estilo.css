@@ -34,7 +34,7 @@ nav.navbar-transparente {
 	margin: 15px 10px;
 }
 
-#home {
+#home, #premium {
 	height: 100%;
 	display: flex;
 	align-items: center;
@@ -149,6 +149,14 @@ h3 {
 	font-size: 2em;
 	font-weight: 700;
 	letter-spacing: -0.04em;
+}
+
+body, #premium {
+	background: url(../imagens/capa.png),
+				url(../imagens/ruido.png),
+				linear-gradient(50deg, #00ffff,#00cc00);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
 }
 
 MEDIA QUERIES -------------------------------------------------------------------------------------
